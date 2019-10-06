@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="89W-I0-6jV">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Progress-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ProgressViewController" customModule="FitPlan" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Progress" image="progreso" id="ouj-Qz-kcW"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1474" y="-51"/>
+        </scene>
+        <!--Goals-->
+        <scene sceneID="6Pb-oR-G4X">
+            <objects>
+                <viewController id="O5a-hX-kcz" customClass="GoalsViewController" customModule="FitPlan" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cyn-jx-sQC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="AL4-Ff-ffk"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Goals" image="objetivo" id="cB0-DS-KLg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hER-oO-IZO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="693" y="354"/>
+        </scene>
+        <!--Add New-->
+        <scene sceneID="TFb-us-GMj">
+            <objects>
+                <viewController id="5Vm-dd-Dhz" customClass="AddNewViewController" customModule="FitPlan" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gav-sI-MGP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Aj3-K7-i77"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Add New" image="comida" id="7co-3Q-9ju"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IHJ-Rq-IEG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1463" y="615"/>
+        </scene>
+        <!--My Recipes-->
+        <scene sceneID="mFM-FO-fg1">
+            <objects>
+                <viewController id="5ns-oT-F3k" customClass="MyRecipesViewController" customModule="FitPlan" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ypn-mJ-4P0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Zm9-f5-bEE"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="My Recipes" image="motivacion" id="3z2-ZJ-CnK"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="meD-fI-QRK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="693" y="-417"/>
+        </scene>
+        <!--First View Controller-->
+        <scene sceneID="Y0J-vZ-nZC">
+            <objects>
+                <viewController id="89W-I0-6jV" customClass="FirstViewController" customModule="FitPlan" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Wm7-Ob-3wV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pagina intro" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o0B-6L-Er9">
+                                <rect key="frame" x="162" y="307" width="91" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IGX-x5-gtn">
+                                <rect key="frame" x="184" y="641" width="47" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="START"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="2eB-Tb-szN"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m0U-4T-TKD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1120.2898550724638" y="-59.510869565217398"/>
+        </scene>
+        <!--Tab Bar View Controller-->
+        <scene sceneID="ZIj-Tt-fHw">
+            <objects>
+                <tabBarController id="1dq-b7-qIc" customClass="TabBarViewController" customModule="FitPlan" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ub9-ts-wsO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" red="0.87757772842639592" green="0.14388854540003987" blue="0.62594447739524439" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="5Vm-dd-Dhz" kind="relationship" relationship="viewControllers" id="zkg-g0-gb9"/>
+                        <segue destination="5ns-oT-F3k" kind="relationship" relationship="viewControllers" id="xUa-qs-FEH"/>
+                        <segue destination="O5a-hX-kcz" kind="relationship" relationship="viewControllers" id="HDj-uM-bR4"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="FiY-Ra-aL0"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HPy-Dd-eN1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-228" y="-51"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="comida" width="30" height="30"/>
+        <image name="motivacion" width="30" height="30"/>
+        <image name="objetivo" width="30" height="30"/>
+        <image name="progreso" width="30" height="30"/>
+    </resources>
+</document>
